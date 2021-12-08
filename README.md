@@ -13,11 +13,13 @@ The `config.txt` file is used to configure boot and hardware configuration on Ra
 
 Edit via SSH
 
-Raspberry OS
+## Raspberry OS
+
+### [Raspbian](https://www.raspbian.org/) 
 
     /dev/config.txt
 
-Ubuntu
+### [Ubuntu for Raspberry Pi | Ubuntu](https://ubuntu.com/raspberry-pi)
   
     /dev/firmware/config.txt
     
