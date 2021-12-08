@@ -174,3 +174,34 @@ sudo raspivid -t 0 -cs 1
 sudo rm -rf /boot/dt-blob.bin
 
 And then turn off IO Board and reboot it.
+
+
+
+[How to flash Raspberry Pi OS onto the Compute Module 4 eMMC with usbboot | Jeff Geerling](https://www.jeffgeerling.com/blog/2020/how-flash-raspberry-pi-os-compute-module-4-emmc-usbboot)
+
+## Using usbboot to mount the eMMC storage
+
+The next step is to download the Raspberry Pi usbboot repository, install a required USB library on your computer, and build the `rpiboot` executable, which you'll use to mount the storage on your computer. I did all of this in the Terminal application on my Mac.
+
+First, make sure you have the `libusb` library installed:
+
+-   On my Mac, I have [Homebrew](https://brew.sh) installed, so I ran: `brew install libusb`
+-   On Linux (e.g. another Raspberry Pi), run: `sudo apt install libusb-1.0-0-dev`
+
+Second, clone the usbboot repository to your computer:
+
+    $ git clone --depth=1 https://github.com/raspberrypi/usbboot
+    
+
+Third, `cd` into the `usbboot` directory and build `rpiboot`:
+
+    $ cd usbboot
+    $ make
+    
+
+Now there should be an `rpiboot` executable in the directory. To mount the eMMC storage, run:
+
+    $ sudo ./rpiboot
+    
+
+And a few seconds later, after it finishes doing its work, you should see the `boot` volume mounted on your Mac (or on whatever Linux computer you're using). You might also notice the D2 LED lighting up; that means there is disk read/write activity on the eMMC.
