@@ -1,6 +1,20 @@
 # cm4
 
 
+[Raspberry Pi Documentation - Compute Module Hardware](https://www.raspberrypi.com/documentation/computers/compute-module.html)
+
+### Compute Module IO board for CM4
+
+Design data for the Compute Module 4 IO board can be found in its datasheet:
+
+-   [Compute Module 4 IO Board datasheet](https://datasheets.raspberrypi.com/cm4io/cm4io-datasheet.pdf)
+    
+
+There is also a KiCAD PCB design set available:
+
+-   [Compute Module 4 IO Board KiCAD files](https://datasheets.raspberrypi.com/cm4io/CM4IO-KiCAD.zip)
+
+
 [Mini Base Board (A) für Raspberry Pi Compute Module 4 | Mini Base Board (A) für Raspberry Pi Compute Module 4 - Erweiterungsboards | Raspberry Pi Mikrocontroller - Raspberry Pi | BerryBase](https://www.berrybase.de/raspberry-pi/raspberry-pi-mikrocontroller/erweiterungsboards/mini-base-board-40-a-41-f-252-r-raspberry-pi-compute-module-4)
 
 
