@@ -205,3 +205,7 @@ Now there should be an `rpiboot` executable in the directory. To mount the eMMC 
     
 
 And a few seconds later, after it finishes doing its work, you should see the `boot` volume mounted on your Mac (or on whatever Linux computer you're using). You might also notice the D2 LED lighting up; that means there is disk read/write activity on the eMMC.
+
+
+
+[Mini Base Board (A) für Raspberry Pi Compute Module 4 | Mini Base Board (A) für Raspberry Pi Compute Module 4 | Erweiterungsboards | Raspberry Pi Mikrocontroller | Raspberry Pi | BerryBase](https://www.berrybase.de/raspberry-pi/raspberry-pi-mikrocontroller/erweiterungsboards/mini-base-board-40-a-41-f-252-r-raspberry-pi-compute-module-4)
