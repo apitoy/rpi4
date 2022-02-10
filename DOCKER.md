@@ -43,7 +43,6 @@ docker run hello-world
   curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-arm
   sudo install minikube-linux-arm /usr/local/bin/minikube
 
-
   minikube start
   
   
