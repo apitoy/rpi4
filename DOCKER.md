@@ -56,8 +56,9 @@ OR
 
 ## MINIKUBE config
 
-    minikube start --driver=docker
     minikube config set driver docker
+    minikube start --driver=docker
+
 
 
 ## MINIKUBE start
