@@ -51,7 +51,15 @@ docker run hello-world
   curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-arm
   sudo install minikube-linux-arm /usr/local/bin/minikube  
 
+  kubeadm config images pull
   
+
+## MINIKUBE config
+
+minikube start --driver=docker
+minikube config set driver docker
+
+
 ## MINIKUBE start
 
   minikube start
