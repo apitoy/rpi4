@@ -79,4 +79,16 @@ https://github.com/kubernetes/minikube/issues/6843
     tail -5 /etc/dphys-swapfile
 
     dockerd --storage-opt dm.basesize=20G
+    
+    
+# Net Tools
+
+    sudo apt-get install hostpad
+    sudo apt-get install bind9
+    sudo apt-get install isc-dhcp-server
+    sudo apt-get install iw
+    sudo apt-get install monit
+    sudo apt-get install dos2unix
+    sudo apt-get install telnet
+    sudo apt-get install ethtool
   
