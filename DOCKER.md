@@ -35,7 +35,7 @@ docker version
 docker run hello-world
 
 
-# minikube
+# minikube / UBUNTU
 
 [minikube start | minikube](https://minikube.sigs.k8s.io/docs/start/)
 
@@ -43,9 +43,19 @@ docker run hello-world
   curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-arm
   sudo install minikube-linux-arm /usr/local/bin/minikube
 
-  minikube start
+ 
+
+# minikube / RASPBIAN
   
   
+curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-arm
+sudo install minikube-linux-arm /usr/local/bin/minikube  
+  
+  
+## MINIKUBE start
+
+ minikube start
+ 
 # Low memory
 
 https://github.com/kubernetes/minikube/issues/6843
