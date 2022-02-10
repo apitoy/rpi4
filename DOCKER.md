@@ -48,13 +48,15 @@ docker run hello-world
 # minikube / RASPBIAN
   
   
-curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-arm
-sudo install minikube-linux-arm /usr/local/bin/minikube  
-  
+  curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-arm
+  sudo install minikube-linux-arm /usr/local/bin/minikube  
+
   
 ## MINIKUBE start
 
- minikube start
+  minikube start
+  minikube logs --file=logs.txt
+  systemctl enable kubelet.service
  
 # Low memory
 
