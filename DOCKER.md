@@ -6,7 +6,7 @@ Install system and software
 
 # docker / ubuntu
 
-sudo apt-get update && sudo apt-get upgrade
+  sudo apt-get update && sudo apt-get upgrade
 
   sudo apt install docker.io
 
@@ -14,19 +14,19 @@ OR
 
   sudo snap install docker
 
-sudo groupadd docker
+  sudo groupadd docker
 
-sudo usermod -aG docker $USER
-
-
-#Run the following command or Logout and login again and run (that doesn't work you may need to reboot your machine first)
-
-newgrp docker
+  sudo usermod -aG docker $USER
 
 
-sudo chmod 666 /var/run/docker.sock
+  #Run the following command or Logout and login again and run (that doesn't work you may need to reboot your machine first)
 
-docker version
+  newgrp docker
+
+
+  sudo chmod 666 /var/run/docker.sock
+
+  docker version
 
 
 
@@ -56,8 +56,8 @@ docker run hello-world
 
 ## MINIKUBE config
 
-minikube start --driver=docker
-minikube config set driver docker
+  minikube start --driver=docker
+  minikube config set driver docker
 
 
 ## MINIKUBE start
@@ -72,7 +72,7 @@ https://github.com/kubernetes/minikube/issues/6843
 
   sudo minikube start --vm-driver=none
 
-sudo minikube start --memory 2048 --cpus 2
+  sudo minikube start --memory 2048 --cpus 2
 
   free -m
   tail -5 /etc/dphys-swapfile
