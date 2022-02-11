@@ -3,6 +3,12 @@
 
 + [DOCKER.md](DOCKER.md)
 
+
+check architecture
+
+    sudo dpkg --print-architecture
+
+
 ## docs
 
 https://braindose.blog/2021/12/31/install-kubernetes-raspberry-pi/#disable-ubuntu-swap
