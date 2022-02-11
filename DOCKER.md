@@ -3,9 +3,15 @@ Install system and software
 
 + arm64v8
 
+## we need to change this file again to enable CGroup. Kubernetes requires CGroup to provide proper resource limits control and management. You can refer to this site for a better explanation of CGroup.
 
+    sudo echo "/ncgroup_enable=cpuset cgroup_enable=memory cgroup_memory=1/n" >> /boot/cmdline.txt
 
-sudo echo "cgroup_enable=cpuset cgroup_enable=memory cgroup_memory=1" >> /boot/cmdline.txt
+OR
+
+sudo nano /boot/cmdline.txt
+group_enable=cpuset cgroup_enable=memory cgroup_memory=1
+
 
 
 # docker / ubuntu
