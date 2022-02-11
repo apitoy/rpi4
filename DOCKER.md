@@ -18,11 +18,11 @@ group_enable=cpuset cgroup_enable=memory cgroup_memory=1
 
 # docker / ubuntu
 
-update
+## update
 
     sudo apt-get update -y && sudo apt-get upgrade -y
 
-install docker
+## install docker
 
 32 bit (armhf)
 
@@ -51,15 +51,15 @@ OR
 
     sudo snap install docker
 
-unistall
+## uninstall
 
     sudo apt-get purge docker-engine
 
-restart
+## restart
 
     sudo service docker restart
     
-user and group 
+## user and group 
 
     sudo groupadd docker
 
