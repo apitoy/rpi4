@@ -1,5 +1,5 @@
 
-# minikube / UBUNTU
+# minikube / DEBIAN
 
 + [DOCKER.md](DOCKER.md)
 
@@ -61,6 +61,10 @@ check architecture
     sudo snap install kubectl --classic
 
 
+## DOCKER
+
+systemctl restart docker
+docker network prune
 
 ## docs
 
