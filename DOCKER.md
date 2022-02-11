@@ -31,7 +31,7 @@ install docker
     sudo apt-get install -y docker
     sudo apt-get install docker-ce-cli:armhf
 
-
+OR
 
 https://mrbradleylee.com/posts/01/2022/installing-docker-on-an-rpi-4/
 
