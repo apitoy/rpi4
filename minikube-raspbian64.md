@@ -88,23 +88,27 @@ You need to disable the Ubuntu swap in order for the “kubelet” to run proper
 
 # minikube / RASPBIAN
   
-  
-    curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-arm
-    sudo install minikube-linux-arm /usr/local/bin/minikube  
+    curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-arm64
 
-    kubeadm config images pull
+    sudo install minikube-linux-arm64 /usr/local/bin/minikube
   
 
 ## MINIKUBE config
 
     minikube config set driver docker
-    minikube start --driver=docker
-
+    
 
 
 ## MINIKUBE start
 
+    minikube start --driver=docker
+
+OR
+
     minikube start
+
+LOGS
+    
     minikube logs --file=logs.txt
     systemctl enable kubelet.service
  
