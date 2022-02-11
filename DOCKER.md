@@ -4,6 +4,10 @@ Install system and software
 + arm64v8
 
 
+
+sudo echo "cgroup_enable=cpuset cgroup_enable=memory cgroup_memory=1" >> /boot/cmdline.txt
+
+
 # docker / ubuntu
 
     sudo apt-get update && sudo apt-get upgrade
