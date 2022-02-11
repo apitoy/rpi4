@@ -58,6 +58,14 @@ check
     docker run hello-world
 
 
+# DOCEKR / network
+
+
+    docker network ls
+    docker network rm [id]
+    docker network prune
+    
+
 # Net Tools
 
     sudo apt-get install hostpad
