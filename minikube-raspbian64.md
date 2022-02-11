@@ -12,7 +12,7 @@ check architecture
 
     sudo nano /boot/cmdline.txt
 
-## Append to cmdline.txt
+## Append to cmdline.txt on the end of first line
 
     cgroup_enable=cpuset cgroup_enable=memory cgroup_memory=1
 
