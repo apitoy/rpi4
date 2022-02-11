@@ -1,6 +1,16 @@
 
 # minikube / UBUNTU
 
+## ENV
+
+### Disable Ubuntu Swap
+
+You need to disable the Ubuntu swap in order for the “kubelet” to run properly. You just need to run the following command to turn the swap off.
+
+    sudo sed -i '/ swap / s/^\(.*\)$/#\1/g' /etc/fstab
+    sudo swapoff -a
+
+
 [minikube start | minikube](https://minikube.sigs.k8s.io/docs/start/)
 
 
