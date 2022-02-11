@@ -157,6 +157,15 @@ https://github.com/kubernetes/minikube/issues/6843
     sudo apt install openjdk-8-jdk
 
 
+	sudo apt install openjdk-8-jdk
+	sudo apt install -y maven
+
+
+	cd IdeaProjects/camel-spring-boot-examples
+
+	java -jar camel-example-spring-boot-rest-openapi-3.16.0-SNAPSHOT.jar
+
+
 
 ## Build kamel
 
