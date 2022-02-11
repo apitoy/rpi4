@@ -16,7 +16,11 @@ group_enable=cpuset cgroup_enable=memory cgroup_memory=1
 
 # docker / ubuntu
 
+update
+
     sudo apt-get update && sudo apt-get upgrade
+
+install docker
 
     sudo apt install docker.io
 
