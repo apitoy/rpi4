@@ -1,6 +1,10 @@
 
 # minikube / UBUNTU
 
+https://braindose.blog/2021/12/31/install-kubernetes-raspberry-pi/#disable-ubuntu-swap
+
+https://braindose.blog/2021/12/28/kubernetes-raspberry-pi-ubuntu/
+
 ## ENV
 
 ### Disable Ubuntu Swap
