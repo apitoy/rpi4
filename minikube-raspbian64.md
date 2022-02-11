@@ -139,3 +139,52 @@ https://github.com/kubernetes/minikube/issues/6843
     dockerd --storage-opt dm.basesize=20G
     
     
+
+
+## Install go
+
+    sudo apt update 
+    sudo apt install -y golang
+    export GO111MODULE=off
+    go env
+
+## Install Java
+
+    sudo apt update
+    sudo apt install default-jdk
+    java -version
+
+    sudo apt install openjdk-8-jdk
+
+
+
+## Build kamel
+
+    git clone https://github.com/apache/camel-k.git
+    make clean
+    make
+    cp kamel /usr/local/bin/kamel
+    make images
+    env GOOS=linux GOARCH=amd64 make build-kamel
+    cp kamel build/_output/bin/
+    operator-sdk build docker.io/apache/camel-k:1.0.0-M2-SNAPSHOT
+    kamel install
+
+
+
+
+https://github.com/apache/camel-k/releases/tag/v1.8.0
+
+curl https://github.com/apache/camel-k/releases/download/v1.8.0/camel-k-client-1.8.0-linux-64bit.tar.gz
+		
+tar -xf camel-k*tar.gz
+scp kamel pi@rpilite:/home/pi
+
+
+kamel install
+ps -ef | grep kube
+
+
+
+nano helloworld.groovy 
+
