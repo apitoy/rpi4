@@ -28,12 +28,13 @@ OR
 
     sudo snap install docker
 
+user and group 
+
     sudo groupadd docker
 
     sudo usermod -aG docker $USER
 
-
-    #Run the following command or Logout and login again and run (that doesn't work you may need to reboot your machine first)
+Run the following command or Logout and login again and run (that doesn't work you may need to reboot your machine first)
 
     newgrp docker
 
