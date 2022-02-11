@@ -5,11 +5,13 @@
 
 https://snapcraft.io/install/groovy/debian
 
+### Install snapd
 
+    sudo apt install -y snapd
+    
 ### Enable snapd
 
    
-    sudo apt install -y snapd
     sudo snap install core
 
     
