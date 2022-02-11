@@ -25,12 +25,22 @@ update
 install docker
 
     sudo apt install -y docker.io
+    
     service docker restart
+
 
 OR
 
     sudo snap install docker
 
+unistall
+
+    sudo apt-get purge docker-engine
+
+restart
+
+    service docker restart
+    
 user and group 
 
     sudo groupadd docker
