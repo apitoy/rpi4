@@ -17,8 +17,7 @@ https://snapcraft.io/install/groovy/debian
     
 ## Install Apache Groovy Programming Language
 
-
-sudo snap install groovy --classic
+    sudo snap install groovy --classic
 
 
 
@@ -26,4 +25,4 @@ sudo snap install groovy --classic
 
 https://camel.apache.org/camel-k/1.8.x/languages/groovy.html
 
-kamel run helloworld.groovy --dev
+    kamel run helloworld.groovy --dev
