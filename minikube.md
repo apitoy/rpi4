@@ -8,7 +8,9 @@ check architecture
 
     sudo dpkg --print-architecture
 
-sudo nano /boot/firmware/cmdline.txt
+## Edit cmdline
+
+    sudo nano /boot/firmware/cmdline.txt
 
 ## Append to cmdline.txt
 
