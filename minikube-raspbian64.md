@@ -27,15 +27,15 @@ check architecture
 
 ## install tools
 
-    sudo apt install net-tools
-    sudo apt install git openssh-server
+    sudo apt install -y net-tools
+    sudo apt install -y git openssh-server
 
 ## Install Docker - Minikube DRIVER
 
 
     sudo apt-get update
     
-    sudo apt install docker.io
+    sudo apt install -y docker.io
 
     sudo usermod -aG docker $USER && newgrp docker
 
@@ -44,7 +44,7 @@ check architecture
 [Install kubectl on Raspberry Pi using the Snap Store | Snapcraft](https://snapcraft.io/install/kubectl/raspbian)
 
     sudo apt update
-    sudo apt install snapd
+    sudo apt install -y snapd
     sudo reboot
     sudo snap install core
     sudo snap install kubectl --classic
