@@ -18,7 +18,7 @@ group_enable=cpuset cgroup_enable=memory cgroup_memory=1
 
 update
 
-    sudo apt-get update && sudo apt-get upgrade
+    sudo apt-get update -y && sudo apt-get upgrade -y
 
 install docker
 
