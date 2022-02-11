@@ -45,7 +45,13 @@ check architecture
 
     sudo apt update
     sudo apt install -y snapd
+    
+restart
+
     sudo reboot
+    
+install
+
     sudo snap install core
     sudo snap install kubectl --classic
 
