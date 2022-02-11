@@ -1,5 +1,5 @@
 
-# minikube / DEBIAN
+# minikube / DEBIAN / raspbian 64 bit
 
 + [DOCKER.md](DOCKER.md)
 
