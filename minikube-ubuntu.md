@@ -2,7 +2,9 @@
 # minikube / UBUNTU
 
 + [DOCKER.md](DOCKER.md)
+[Installing Camel-K on microk8s running Ubuntu - Aymen Furter - Medium](https://aymen-furter.medium.com/installing-camel-k-on-microk8s-running-ubuntu-5e286d057623)
 
+[Setup Minikube on RPi4 4GB — Ubuntu Server 20.04 LTS | by Akash Kumar | Medium](https://medium.com/@Aakash1sky/setup-minikube-on-rpi4-4gb-ubuntu-server-20-04-lts-a4a852f54354)
 
 check architecture
 
