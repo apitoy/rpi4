@@ -22,7 +22,7 @@ update
 
 install docker
 
-    sudo apt install docker.io
+    sudo apt install -y docker.io
 
 OR
 
