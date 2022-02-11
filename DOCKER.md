@@ -57,6 +57,19 @@ check
 
     docker run hello-world
 
+# DOCKER / images
+
+    docker run hello-world
+    docker images
+
+remove all
+
+    docker rmi -f $(docker images -aq)
+ 
+all from cache
+
+    docker builder prune -af
+    
 
 # DOCEKR / network
 
