@@ -38,7 +38,11 @@ OR
     newgrp docker
 
 
+rights
+
     sudo chmod 666 /var/run/docker.sock
+
+check
 
     docker version
 
