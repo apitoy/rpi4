@@ -8,6 +8,20 @@ check architecture
 
     sudo dpkg --print-architecture
 
+sudo nano /boot/firmware/cmdline.txt
+
+## Append to cmdline.txt
+
+    cgroup_enable=cpuset cgroup_enable=memory cgroup_memory=1
+
+## restart
+
+    sudo reboot
+
+## verify the cmdline changes 
+
+    cat /proc/cmdline
+
 
 ## docs
 
