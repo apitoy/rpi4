@@ -24,6 +24,22 @@ update
 
 install docker
 
+    curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+    sudo add-apt-repository "deb [arch=armhf] https://download.docker.com/linux/ubuntu bionic stable"
+    sudo apt-get update
+    
+    sudo apt-get install -y docker
+    sudo apt-get install docker-ce-cli:armhf
+
+
+
+https://mrbradleylee.com/posts/01/2022/installing-docker-on-an-rpi-4/
+
+
+    sudo apt install linux-modules-extra-raspi
+    
+OR
+
     sudo apt install -y docker.io
     
     service docker restart
