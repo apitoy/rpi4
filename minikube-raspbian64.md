@@ -37,9 +37,22 @@ check architecture
     
     sudo apt install -y docker.io
 
+### rights
+
     sudo usermod -aG docker $USER && newgrp docker
 
+### Run image
+
     docker run --rm hello-world
+
+### restart
+
+    systemctl restart docker
+ 
+### remove
+    docker network prune
+
+
 
 [Install kubectl on Raspberry Pi using the Snap Store | Snapcraft](https://snapcraft.io/install/kubectl/raspbian)
 
@@ -56,10 +69,6 @@ install
     sudo snap install kubectl --classic
 
 
-## DOCKER
-
-systemctl restart docker
-docker network prune
 
 ## docs
 
