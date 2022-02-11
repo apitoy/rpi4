@@ -39,7 +39,7 @@ unistall
 
 restart
 
-    service docker restart
+    sudo service docker restart
     
 user and group 
 
