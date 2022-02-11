@@ -8,6 +8,8 @@
 https://braindose.blog/2021/12/31/install-kubernetes-raspberry-pi/#disable-ubuntu-swap
 https://braindose.blog/2021/12/28/kubernetes-raspberry-pi-ubuntu/
 
+https://medium.com/@Aakash1sky/setup-minikube-on-rpi4-4gb-ubuntu-server-20-04-lts-a4a852f54354
+
 ## ENV
 
 ### Disable Ubuntu Swap
