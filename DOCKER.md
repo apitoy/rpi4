@@ -1,6 +1,8 @@
 # rpi4 / DOCKER
 Install system and software 
 
++ [minikube.md](minikube.md)
+
 + arm64v8
 
 ## we need to change this file again to enable CGroup. Kubernetes requires CGroup to provide proper resource limits control and management. You can refer to this site for a better explanation of CGroup.
