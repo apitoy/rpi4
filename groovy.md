@@ -3,7 +3,8 @@
 
 ## groovy
 
-https://snapcraft.io/install/groovy/debian
++ https://snapcraft.io/install/groovy/debian
++ https://groovy-lang.org/install.html
 
 ### Install snapd
 
