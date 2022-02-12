@@ -54,3 +54,7 @@ run kamel
 
     kamel run hello.groovy
 
+run with logs
+
+    kamel run hello.groovy --dev 
+
