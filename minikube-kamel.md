@@ -42,7 +42,7 @@ LOGS
 
 file
 
-    nano helloworld.groovy 
+    nano hello.groovy 
 
 content
 
