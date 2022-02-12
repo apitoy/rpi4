@@ -29,8 +29,8 @@ check architecture
 
 ## install tools
 
-    sudo apt install net-tools
-    sudo apt install git openssh-server
+    sudo apt install -y net-tools
+    sudo apt install -y git openssh-server
 
 ## Install Docker - Minikube DRIVER
 
