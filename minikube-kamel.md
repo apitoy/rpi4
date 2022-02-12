@@ -1,5 +1,7 @@
 [Getting started with Camel K tutorial - Masterspringboot -](http://www.masterspringboot.com/camel/getting-started-with-camel-k-tutorial/)
 
++ [DOCKER.md](DOCKER.md)
+
 
 ## MINIKUBE config
 
