@@ -141,31 +141,6 @@ https://github.com/kubernetes/minikube/issues/6843
     
 
 
-## Install go
-
-    sudo apt update 
-    sudo apt install -y golang
-    export GO111MODULE=off
-    go env
-
-## Install Java
-
-    sudo apt update
-    sudo apt install default-jdk
-    java -version
-
-    sudo apt install openjdk-8-jdk
-
-
-	sudo apt install openjdk-8-jdk
-	sudo apt install -y maven
-
-
-	cd IdeaProjects/camel-spring-boot-examples
-
-	java -jar camel-example-spring-boot-rest-openapi-3.16.0-SNAPSHOT.jar
-
-
 
 ## Build kamel
 
