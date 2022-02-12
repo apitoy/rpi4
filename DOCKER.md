@@ -1,8 +1,10 @@
 # rpi4 / DOCKER
 Install system and software 
 
++ [minikube kamel](minikube-kamel.md)
 + [minikube ubuntu](minikube-ubuntu.md)
 + [minikube raspbian](minikube-raspbian64.md)
+
 
 CPU arm64v8
 
