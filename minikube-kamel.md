@@ -12,14 +12,15 @@
     minikube start --driver=docker
 
 
-## deploy the registry.
+## After the startup process is completed, you need to enable the registry addon:
 
-    minikube addons enable registry 
+    minikube addons enable registry
 
-LOGS
-    
-    minikube logs --file=logs.txt
-    systemctl enable kubelet.service
+## Alternatively, you can also start an instance with the registry addon in one command:
+
+    minikube start --addons registry
+
+
  
  
  
