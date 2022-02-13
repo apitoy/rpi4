@@ -30,7 +30,7 @@ Change it to:
 # Another Path 
 for FTP than USER HOME folder: /home/$USER/
 
-## Add the following lines at the end of the config file:
+## Add the following lines at the end of the config file ( /etc/vsftpd.conf ):
 
     user_sub_token=$USER
 
