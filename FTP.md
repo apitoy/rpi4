@@ -27,7 +27,10 @@ Change it to:
 
     anonymous_enable=NO
 
-Add the following lines at the end of the config file:
+# Another Path 
+for FTP than USER HOME folder: /home/$USER/
+
+## Add the following lines at the end of the config file:
 
     user_sub_token=$USER
 
@@ -36,10 +39,11 @@ Add the following lines at the end of the config file:
 
 These settings lock the server users to the FTP folder within the home directory.
 
-# FTP directory on RPI
+## FTP directory on RPI
 
     mkdir -p /home/pi/FTP/testftp
     chmod a-w /home/pi/FTP
+
 
 # restart
 
