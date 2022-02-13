@@ -35,8 +35,18 @@ Add the following lines at the end of the config file:
 
 
 These settings lock the server users to the FTP folder within the home directory.
+
+# FTP directory on RPI
+
+    mkdir -p /home/pi/FTP/testftp
+    chmod a-w /home/pi/FTP
+
+# restart
+
+    sudo service vsftpd restart
     
 # test
+
 
 # docs
 
